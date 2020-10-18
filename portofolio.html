@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="portofolio.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Portofolio</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="" class="nav_logo">William Susanto</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class = "nav_item"> <a href="#home" class="nav_link active"> Home </a> </li>
+                    <li class = "nav_item"> <a href="#about" class="nav_link"> About </a> </li>
+                    <li class = "nav_item"> <a href="#skills" class="nav_link"> Skills </a> </li>
+                    <li class = "nav_item"> <a href="#portfolio" class="nav_link"> Works </a> </li>
+                    <li class = "nav_item"> <a href="#contact" class="nav_link"> Contact me </a> </li>
+                    <li class = "nav_item"> <a href="Asset/CuriculumVitae-2020-Benarbenarterbaru.pdf" class="nav_link"> Download CV </a> </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home" id="home">
+            <!-- home -->
+            <div class="home_container bd-grid">
+                <h1 class="home_title"><span>HELLO!</span></h1>
+
+                <img src="Asset/megusta.png" alt="" class="home_img">
+            </div>
+        </section>
+
+            <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="Asset/megusta.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about_subtitle">I'm William Susanto</h2>
+                    <span class="about_profession">Student</span>
+                    <p class="about_text">I come from the largest island in Indonesia, which is the island of 
+                      Borneo,I was born in the city of Singkawang. In 2018 I moved to 
+                      Jakarta to study and now I am a student majoring in informatics from 
+                      Bina Nusantara University. I am an opinionated and easy person who 
+                      is good in group and individual work and literally interested in new 
+                      things, especially the latest technology.</p>
+                
+                    <div class="about_social">
+                        <a href="https://www.linkedin.com/in/william-susanto-4a0555177/" class="about_social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://www.instagram.com/ws_susanto/" class="about_social-icon"><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href="https://github.com/Deltodeus" class="about_social-icon"><i class='bx bxl-github' ></i></a>
+                        <a href="https://www.facebook.com/william.susanto.5095" class="about_social-icon"><i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills_container bd-grid">
+                <div class="skills_box">
+                    <h3 class="skills_subtitle">Development</h3>
+                    <span class="skills_name">HTML & CSS</span>
+                    <span class="skills_name">Javascript</span>
+                    <span class="skills_name">PhpMyAdmin</span>
+                    <span class="skills_name">Java</span>
+                    <span class="skills_name">MySQL</span>
+                    <span class="skills_name">Python</span>
+                    <span class="skills_name">C Language</span>
+                    <span class="skills_name">ArcGis Map</span>
+                    <span class="skills_name">Android Studio</span>
+                    <span class="skills_name">PHP</span>
+                    <span class="skills_name">Laravel</span>
+
+                    <h3 class="skills_subtitle">Multimedia</h3>
+                    <span class="skills_name">VSDC</span>
+                    <span class="skills_name">Construct 2</span>
+                    <span class="skills_name">Adobe Illustrator</span>
+                    <span class="skills_name">Adobe Photoshop</span>
+                    <span class="skills_name">Adobe Animate</span>
+                    <span class="skills_name">OBS Studio</span>
+                </div>
+
+                <div class="skills_img">
+                    <img src="Asset/compskill.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Portofolio -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portofolio</h2>
+
+            <div class="portfolio_container bd-grid">
+                <div class="portfolio_img">
+                    <img src="Asset/bitenar.jpg" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="https://deltodeus.github.io/Bitenar/" class="portfolio_link-name">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio_img">
+                    <img src="Asset/Kaero1.png" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="#portfolio" class="portfolio_link-name" onclick="document.getElementById('id123').style.display='block'">View Details</a>
+                    </div>
+                </div>
+
+                <div id="id123" class="w3-modal">
+                  <div class="w3-modal-content">
+                    <header class="w3-container w3-teal"> 
+                      <span onclick="document.getElementById('id123').style.display='none'" 
+                      class="w3-button w3-display-topright">&times;</span>
+                      <h2>Kaero.co.id</h2>
+                    </header>
+                    <div class="w3-container">
+                      <div class="w3-content w3-display-container" style="max-width:800px">
+                            <div class="w3-display-container mySlide9">
+                              <img src="Asset/Kaero1.png" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Address Page
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlide9">
+                              <img src="Asset/Kaero2.png" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Checkout Modal
+                              </div>
+                            </div>
+
+                            <button class="w3-button w3-display-left w3-black" onclick="plusDivs9(-1)">&#10094;</button>
+                            <button class="w3-button w3-display-right w3-black" onclick="plusDivs9(1)">&#10095;</button>
+                        </div>
+                    </div>
+                    <footer class="w3-container w3-teal">
+                      <p>Github : https://github.com/Deltodeus/KaeroAddress.github.io</p>
+                    </footer>
+                  </div>
+              </div>
+
+                <div class="portfolio_img">
+                    <img src="Asset/RX.jpg" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="https://deltodeus.github.io/Rx-Player.github.io/topasia.html" class="portfolio_link-name">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio_img">
+                    <img src="Asset/LandingPage.png" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="#portfolio" class="portfolio_link-name" onclick="document.getElementById('id01').style.display='block'">View Details</a>
+                    </div>
+                </div>
+
+                <div id="id01" class="w3-modal">
+                    <div class="w3-modal-content">
+                      <header class="w3-container w3-teal"> 
+                        <span onclick="document.getElementById('id01').style.display='none'" 
+                        class="w3-button w3-display-topright">&times;</span>
+                        <h2>legal consulting application prototype</h2>
+                      </header>
+                      <div class="w3-container">
+
+                        <div class="w3-content w3-display-container" style="max-width:400px">
+                            <div class="w3-display-container mySlides">
+                              <img src="Asset/Login.png" style="width:100%">
+                              <div class="w3-display-bottomright w3-medium w3-container w3-padding-12 w3-black">
+                                Login
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides">
+                              <img src="Asset/LandingPage.png" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Landing Page
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides">
+                              <img src="Asset/Register.png" style="width:100%">
+                              <div class="w3-display-bottomright w3-medium w3-container w3-padding-12 w3-black">
+                                Register
+                              </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides">
+                                <img src="Asset/Homepage.png" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                  Homepage
+                                </div>
+                              </div>
+
+                              <div class="w3-display-container mySlides">
+                                <img src="Asset/Choose.png" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                  Choose Legal
+                                </div>
+                              </div>
+
+                              <div class="w3-display-container mySlides">
+                                <img src="Asset/Payment.png" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                  Payment
+                                </div>
+                              </div>
+
+                              <div class="w3-display-container mySlides">
+                                <img src="Asset/Approval.png" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                  Approval
+                                </div>
+                              </div>
+
+                              <div class="w3-display-container mySlides">
+                                <img src="Asset/Chat.png" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                  Chat
+                                </div>
+                              </div>
+
+                              <div class="w3-display-container mySlides">
+                                <img src="Asset/Feedback.png" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                  Feedback
+                                </div>
+                              </div>
+                            
+                            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                        </div>
+
+                      </div>
+                      <footer class="w3-container w3-teal">
+                        <p>Ini adalah project mid exam saya, tools yang saya pakai adalah adobe illustrator,adobe xd, dan adobe photoshop.</p>
+                      </footer>
+                    </div>
+                </div>
+
+                <div class="portfolio_img">
+                    <img src="Asset/Sertif_4-01.png" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="#portfolio" class="portfolio_link-name" onclick="document.getElementById('id02').style.display='block'">View Details</a>
+                    </div>
+                </div>
+
+                <div id="id02" class="w3-modal">
+                    <div class="w3-modal-content">
+                      <header class="w3-container w3-teal"> 
+                        <span onclick="document.getElementById('id02').style.display='none'" 
+                        class="w3-button w3-display-topright">&times;</span>
+                        <h2>some of my work is in design</h2>
+                      </header>
+                      <div class="w3-container">
+
+                        <div class="w3-content w3-display-container" style="max-width:800px">
+                            <div class="w3-display-container mySlides4">
+                              <img src="Asset/Sertif_4-01.png" style="width:100%">
+                              <div class="w3-display-bottomright w3-medium w3-container w3-padding-12 w3-black">
+                                The certificate I created for the BNCC Techno Talk II organizational event: Explore the Evolution with Blockchain
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides4">
+                              <img src="Asset/Banner.png" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Banner for Binus Festival
+                              </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides4">
+                                <img src="Asset/Infografis.png" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Infographics for Binus Festival
+                                </div>
+                            </div>
+                            <button class="w3-button w3-display-left w3-black" onclick="plusDivs1(-1)">&#10094;</button>
+                            <button class="w3-button w3-display-right w3-black" onclick="plusDivs1(1)">&#10095;</button>
+                        </div>
+
+                      </div>
+                      <footer class="w3-container w3-teal">
+                        <p>This is an independent project and organizational event affairs that I participate in, here the tools I use are Adobe Photoshop for certificates and Adobe Illustrator for banners and infographics</p>
+                      </footer>
+                    </div>
+                </div>
+
+                <div class="portfolio_img">
+                    <img src="Asset/AEO.jpg" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="#portfolio" class="portfolio_link-name" onclick="document.getElementById('id03').style.display='block'">View Details</a>
+                    </div>
+                </div>
+
+                <div id="id03" class="w3-modal">
+                    <div class="w3-modal-content">
+                      <header class="w3-container w3-teal"> 
+                        <span onclick="document.getElementById('id03').style.display='none'" 
+                        class="w3-button w3-display-topright">&times;</span>
+                        <h2>Certificates</h2>
+                      </header>
+                      <div class="w3-container">
+
+                        <div class="w3-content w3-display-container" style="max-width:800px">
+                            <div class="w3-display-container mySlides5">
+                              <img src="Asset/TechInAsia.jpg" style="width:100%">
+                              <div class="w3-display-bottomright w3-medium w3-container w3-padding-12 w3-black">
+                                I volunteer in the speed dating department at Tech in Asia
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides5">
+                              <img src="Asset/AlibabaCloud.JPG" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                I attended an Alibaba Cloud seminar which discussed cloud computing
+                              </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides5">
+                                <img src="Asset/AEO.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                I became a volunteer as a judge buddy during the AEO
+                                </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides5">
+                                <img src="Asset/PublicSpeaking.jpeg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                I attended the public speaking training by EST Public Speaking
+                                </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides5">
+                                <img src="Asset/DiklatKaderisasi.jpeg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                I attended the religious education and training program for 2 months at the Pusdiklat Citra Maitri Jaya
+                                </div>
+                            </div>
+                            <button class="w3-button w3-display-left w3-black" onclick="plusDiv(-1)">&#10094;</button>
+                            <button class="w3-button w3-display-right w3-black" onclick="plusDiv(1)">&#10095;</button>
+                        </div>
+
+                      </div>
+                      <footer class="w3-container w3-teal">
+                        <p>several certificates that I obtained outside the Binus University program</p>
+                      </footer>
+                    </div>
+                </div>
+                
+                <div class="portfolio_img">
+                    <img src="Asset/messageImage_1602956747116.jpg" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="#portfolio" class="portfolio_link-name" onclick="document.getElementById('id04').style.display='block'">View Details</a>
+                    </div>
+                </div>
+
+                <div id="id04" class="w3-modal">
+                    <div class="w3-modal-content">
+                      <header class="w3-container w3-teal"> 
+                        <span onclick="document.getElementById('id04').style.display='none'" 
+                        class="w3-button w3-display-topright">&times;</span>
+                        <h2>Video</h2>
+                      </header>
+                      <div class="w3-container">
+                        <video width="960" height="540" controls>
+                            <source src="Asset/Foryou-gathering.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                      </div>
+                      <footer class="w3-container w3-teal">
+                        <p>the video is for the Foryou.id gathering, i made the video with VSDC</p>
+                      </footer>
+                    </div>
+                </div>
+
+                <div class="portfolio_img">
+                    <img src="Asset/onero.jpg" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="#portfolio" class="portfolio_link-name" onclick="document.getElementById('id05').style.display='block'">View Details</a>
+                    </div>
+                </div>
+
+                <div id="id05" class="w3-modal">
+                    <div class="w3-modal-content">
+                      <header class="w3-container w3-teal"> 
+                        <span onclick="document.getElementById('id05').style.display='none'" 
+                        class="w3-button w3-display-topright">&times;</span>
+                        <h2>Self-Development</h2>
+                      </header>
+                      <div class="w3-container">
+                        <div class="w3-content w3-display-container" style="max-width:800px">
+                            <div class="w3-display-container mySlides2">
+                              <img src="Asset/mctechnotalk.jpg" style="width:100%">
+                              <div class="w3-display-bottomright w3-medium w3-container w3-padding-12 w3-black">
+                                MC at the BNCC Techno Talk event with the speaker, Mrs. Belinda Rahmadara as Senior Talent Acquisition & Onboarding at Bukalapak
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides2">
+                              <img src="Asset/tzuchirecycle.jpg" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Volunteering for environmental care at Tzu Chi
+                              </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides2">
+                                <img src="Asset/publicspk.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                MC training and public speaking
+                                </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides2">
+                                <img src="Asset/tzuchiminyak.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Volunteer with other students in the framework of the Tzu Chi foundation's charity week
+                                </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides2">
+                                <img src="Asset/guru.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                I have been a sunday school teacher at the Citra Maitri Jaya Education and Training Center since 2019
+                                </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides2">
+                                <img src="Asset/onero.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                I became the MC at the BNCC Launching event which was attended by the Founder of Onero Solution
+                                </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides2">
+                                <img src="Asset/chairman.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Committee meeting when I was chairman of the event committee at the monthly event Pusdiklat Citra Maitri Jaya
+                                </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides2">
+                                <img src="Asset/pelatihan.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Sunday school teacher training
+                                </div>
+                            </div>
+
+                            <div class="w3-display-container mySlides2">
+                                <img src="Asset/lenovo.jpg" style="width:100%">
+                                <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Became a committee in conducting the seminar BNCC x Lenovo event
+                                </div>
+                            </div>
+                            
+                            <button class="w3-button w3-display-left w3-black" onclick="plusDivss(-1)">&#10094;</button>
+                            <button class="w3-button w3-display-right w3-black" onclick="plusDivss(1)">&#10095;</button>
+                        </div>
+                      </div>
+                      <footer class="w3-container w3-teal">
+                        <p>some of the self-improvement activities I've been doing over the last 2 years</p>
+                      </footer>
+                    </div>
+                </div>
+
+                <div class="portfolio_img">
+                    <img src="Asset/Lofeng1.jpg" alt="">
+
+                    <div class="portfolio_link">
+                        <a href="#portfolio" class="portfolio_link-name" onclick="document.getElementById('id06').style.display='block'">View Details</a>
+                    </div>
+                </div>
+
+                <div id="id06" class="w3-modal">
+                    <div class="w3-modal-content">
+                      <header class="w3-container w3-teal"> 
+                        <span onclick="document.getElementById('id06').style.display='none'" 
+                        class="w3-button w3-display-topright">&times;</span>
+                        <h2>Dragon and Phoenix The Movie</h2>
+                      </header>
+                      <div class="w3-container">
+
+                        <div class="w3-content w3-display-container" style="max-width:800px">
+                            <div class="w3-display-container mySlides3">
+                              <img src="Asset/Lofeng1.jpg" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                My experience when playing a joint film by a West Kalimantan producer. 
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides3">
+                              <img src="Asset/Lofeng2.jpg" style="width:100%">
+                              <div class="w3-display-bottomleft w3-medium w3-container w3-padding-12 w3-black">
+                                Here I play as a supporting role (black jacket with yellow trim)
+                              </div>
+                            </div>
+
+                            <button class="w3-button w3-display-left w3-black" onclick="plusDivsss(-1)">&#10094;</button>
+                            <button class="w3-button w3-display-right w3-black" onclick="plusDivsss(1)">&#10095;</button>
+                        </div>
+
+                      </div>
+                      <footer class="w3-container w3-teal">
+                        <p>The youtube's link for the trailer: https://www.youtube.com/watch?v=hIkxNuQ_-kQ</p>
+                      </footer>
+                    </div>
+                </div>
+
+                <div class="portfolio_img">
+                  <img src="Asset/Healthy.jpg" alt="">
+
+                  <div class="portfolio_link">
+                      <a href="https://healthyfortune.weebly.com/">View Details</a>
+                  </div>
+              </div>
+
+              <div class="portfolio_img">
+                <img src="Asset/123.jpeg" alt="">
+
+                <div class="portfolio_link">
+                    <a href="https://nearson901.wixsite.com/portofolio">View Details</a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact_container bd-grid">
+                <div class="cotnact_info">
+                    <h3 class="contact_subtitle">EMAIL</h3>
+                    <span class="contact_text">williamsusanto901@gmail.com</span>
+                    
+                    <h3 class="contact_subtitle">PHONE</h3>
+                    <span class="contact_text">+62822 5572 9869</span>
+
+                    <h3 class="contact_subtitle">ADDRESS</h3>
+                    <span class="contact_text">Indonesia</span>
+                </div>
+
+                <form action="contactform.php" class="contact_form">
+                    <div class="contact_inputs">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="mail" placeholder="Email" class="contact_input">
+                    </div>
+
+                    <textarea name="message" id="" cols="0" rows="10" class="contact_input" placeholder="Message"></textarea>
+                    
+                    <button type="submit" name="submit" class="contact_button">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer section">
+        <div class="footer_container bd-grid">
+            <div class="footer_data">
+                <h2 class="footer_title">William Susanto</h2>
+                <p class="footer_text">Saya William, dan ini adalah portofolio saya</p>
+            </div>
+
+            <div class="footer_data">
+                <h2 class="footer_title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer_link">Home</a></li>
+                    <li><a href="#about" class="footer_link">About</a></li>
+                    <li><a href="#skills" class="footer_link">Skills</a></li>
+                    <li><a href="#portfolio" class="footer_link">portfolio</a></li>
+                    <li><a href="#contact" class="footer_link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_data">
+                <h2 class="footer_title">FOLLOW</h2>
+                <a href="https://www.facebook.com/william.susanto.5095" class="footer_social"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/ws_susanto/" class="footer_social"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/william-susanto-4a0555177/" class="footer_social"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="portofolio.js"></script>
+</body>
+</html>

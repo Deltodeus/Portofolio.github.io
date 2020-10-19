@@ -157,28 +157,6 @@ function showDivs5(n) {
   x[slideIndex5-1].style.display = "block";  
 }
 
-//Slide kaero
-var slideIndex9 = 1;
-showDivs9(slideIndex9);
-
-function plusDivs9(n) {
-  showDivs9(slideIndex9 += n);
-}
-
-function currentDiv9(n) {
-  showDivs9(slideIndex9 = n);
-}
-
-function showDivs9(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlide9");
-  if (n > x.length) {slideIndex9 = 1}
-  if (n < 1) {slideIndex9 = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex9-1].style.display = "block";  
-}
 //Animation
 const sr = ScrollReveal({
     origin: 'Top',

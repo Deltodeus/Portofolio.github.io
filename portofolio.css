@@ -99,7 +99,7 @@ img{
     content: "";
     width: 32px;
     height: .18rem;
-    left:0;
+    left: 0;
     right: 0;
     margin: auto;
     top: 2rem;
@@ -133,6 +133,9 @@ img{
     align-items: center;
 }
 @media screen and (max-width:768px){
+    .bd-grid{
+        width: calc(100% - 4rem);
+    }
     .nav_menu{
         position: fixed;
         top: var(--header-height);
@@ -200,6 +203,17 @@ img{
 .home_title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
 }
+
+.home_scroll{
+    align-self: flex-end;
+    padding-bottom: var(--mb-4);
+}
+.home_scroll-link{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: var(--white-color);
+}
+
 .home_img{
     position: absolute;
     right: 0;

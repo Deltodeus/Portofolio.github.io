@@ -6,7 +6,9 @@
 /* variable color  */
 :root{
     /* --first-color: #5361FF; */
-    --first-color: #CC4B2C;
+    /* --first-color: #CC4B2C; */
+    --first-color: #8fa329;
+    /* --first-color: #8DBA23; */
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #607477;
@@ -148,7 +150,6 @@ img{
         backdrop-filter: blur(10px);
     }
 }
-
 .nav_item{
     margin-bottom: var(--mb-4);
 }
